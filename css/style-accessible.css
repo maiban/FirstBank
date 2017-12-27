@@ -52,6 +52,10 @@ caption {
 	top: -30px;
 	left: 0px;
 }
+.landing-page .acc-key.acckey-center{
+	top: 20px;
+	left: 6%;
+}
 .acc-key.acckey-bottom {
 	left: 10px;
 }
