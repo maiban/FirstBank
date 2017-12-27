@@ -1,4 +1,4 @@
-﻿/*
+/*
 First Bank Theme
 ---------------------------
 TABLE OF CONTENTS:
@@ -1668,6 +1668,7 @@ color:#dedede;
 	padding-top: 60px;
 	background-color: #fff;
 	background-color: rgba(255,255,255,.75);
+	position: relative;
 }
 .landing-page-title {
 	margin-bottom: 96px;
