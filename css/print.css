@@ -1,0 +1,103 @@
+
+/*
+First Bank Print CSS
+*/
+@media only print {
+* {
+	background: transparent !important;
+	color: black !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	filter: none !important;
+	-ms-filter: none !important;
+}
+a, a:visited {
+	text-decoration: underline;
+}
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+	content: "";
+}
+pre, blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+thead {
+	display: table-header-group;
+}
+tr, img {
+	page-break-inside: avoid;
+}
+img {
+	max-width: 100% !important;
+}
+@page {
+	margin: 0.5cm;
+}
+p, h1, h2, h3, h4, h5, h6 {
+	orphans: 3;
+	widows: 3;
+}
+h1, h2, h3 {
+	page-break-after: avoid;
+}
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.4em;
+	word-spacing: 1px;
+	letter-spacing: 0.2px;
+	font-family: "微軟正黑體", "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+}
+.header {
+	height: 70px;
+	position: fixed;
+	top: 0;
+	display: block;
+}
+.header a[href]:after {
+	content: ""!important;
+}
+.header a.navbar-brand {
+	padding-left: 0px;
+}
+#loader, #navbar, .page-nav, .font-adjust-holder, #main-menu, #sidebar, .nav-tabs, .customer-service, #footer, #popup-search {
+	display: none;
+}
+a:link, a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.two-col-wrapper, .col-left {
+	width: 100%;
+}
+.content {
+	width: 90%;
+	padding: 90px 5% 120px;
+}
+.content a:link:after, .content-holder a:visited:after {
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+}
+.content a[href^="/"]:after {
+	content: " (http://www.firstbank.com.tw/" attr(href) ") ";
+}
+.content img {
+	width: 250px !important;
+	height: auto !important;
+}
+body:after {
+	padding-top: 16px;
+	border-top: 1px solid #000;
+	width: 100%;
+	display: block;
+	content: "第一商業銀行股份有限公司, © First Commercial Bank";
+}
+}

@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* Banner Container */
+.banner-container {
+	width: 100%;
+	height: 390px;
+	margin-top: 50px;
+	position: relative;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-container.md {
+	height: 480px;
+}
+.banner-container.lg {
+	height: 600px;
+}
+/* Banner - About Us */
+.banner-about, .banner-about.bg-about0 {
+	background-image: url(../assets/page-banners/banner-about-0.jpg);
+}
+.banner-about.bg-about1 {
+	background-image: url(../assets/page-banners/banner-about-1.jpg);
+}
+.banner-about.bg-about2 {
+	background-image: url(../assets/page-banners/banner-about-2.jpg);
+	background-position: right top;
+}
+.banner-about.bg-about3 {
+	background-image: url(../assets/page-banners/banner-about-3.jpg);
+}
+.banner-about.bg-about4 {
+	background-image: url(../assets/page-banners/banner-about-4.jpg);
+	background-position: left top;
+}
+/* Banner - Personal */
+.banner-personal, .banner-personal.bg-personal0 {
+	background-image: url(../assets/page-banners/banner-personal-0.jpg);
+}
+.banner-personal.bg-personal1 {
+	background-image: url(../assets/page-banners/banner-personal-1.jpg);
+	background-position: right top;
+}
+.banner-personal.bg-personal2 {
+	background-image: url(../assets/page-banners/banner-personal-2.jpg);
+	background-position: right top;
+}
+.banner-personal.bg-personal3 {
+	background-image: url(../assets/page-banners/banner-personal-3.jpg);
+	background-position: right top;
+}
+.banner-personal.bg-personal4 {
+	background-image: url(../assets/page-banners/banner-personal-4.jpg);
+	background-position: right top;
+}
+.banner-personal.bg-personal5 {
+	background-image: url(../assets/page-banners/banner-personal-5.jpg);
+	background-position: left top;
+}
+.banner-personal.bg-personal6 {
+	background-image: url(../assets/page-banners/banner-personal-6.jpg);
+	background-position: right top;
+}
+.banner-personal.bg-personal7 {
+	background-image: url(../assets/page-banners/banner-personal-7.jpg);
+	background-position: center top;
+}
+.banner-personal.bg-personal8 {
+	background-image: url(../assets/page-banners/banner-personal-8.jpg);
+	background-position: left top;
+}
+.banner-personal.bg-personal9 {
+	background-image: url(../assets/page-banners/banner-personal-9.jpg);
+	background-position: center top;
+}
+/* Banner - Corporate */
+.banner-corporate, .banner-corporate.bg-corporate0 {
+	background-image: url(../assets/page-banners/banner-corporate-0.jpg);
+	background-position: center top;
+}
+.banner-corporate.bg-corporate1 {
+	background-image: url(../assets/page-banners/banner-corporate-1.jpg);
+	background-position: right top;
+}
+.banner-corporate.bg-corporate2 {
+	background-image: url(../assets/page-banners/banner-corporate-2.jpg);
+	background-position: right top;
+}
+.banner-corporate.bg-corporate3 {
+	background-image: url(../assets/page-banners/banner-corporate-3.jpg);
+	background-position: right top;
+}
+.banner-corporate.bg-corporate4 {
+	background-image: url(../assets/page-banners/banner-corporate-4.jpg);
+	background-position: left top;
+}
+.banner-corporate.bg-corporate5 {
+	background-image: url(../assets/page-banners/banner-corporate-5.jpg);
+	background-position: center top;
+}
+.banner-corporate.bg-corporate6 {
+	background-image: url(../assets/page-banners/banner-corporate-6.jpg);
+	background-position: right top;
+}
+.banner-corporate.bg-corporate7 {
+	background-image: url(../assets/page-banners/banner-corporate-7.jpg);
+	background-position: right top;
+}
+.banner-corporate.bg-corporate8 {
+	background-image: url(../assets/page-banners/banner-corporate-8.jpg);
+	background-position: right top;
+}
+.banner-corporate.bg-corporate9 {
+	background-image: url(../assets/page-banners/banner-corporate-9.jpg);
+	background-position: right top;
+}
+/* Banner - Digital */
+.banner-digital, .banner-digital.bg-digital0 {
+	background-image: url(../assets/page-banners/banner-digital-0.jpg);
+	background-position: right top;
+}
+.banner-digital.bg-digital1 {
+	background-image: url(../assets/page-banners/banner-digital-1.jpg);
+}
+.banner-digital.bg-digital2 {
+	background-image: url(../assets/page-banners/banner-digital-2.jpg);
+}
+.banner-digital.bg-digital3 {
+	background-image: url(../assets/page-banners/banner-digital-3.jpg);
+	background-position: left top;
+}
+.banner-digital.bg-digital4 {
+	background-image: url(../assets/page-banners/banner-digital-4.jpg);
+}
+.banner-digital.bg-digital5 {
+	background-image: url(../assets/page-banners/banner-digital-5.jpg);
+	background-position: right top;
+}
+.banner-digital.bg-digital6 {
+	background-image: url(../assets/page-banners/banner-digital-6.jpg);
+	background-position: right top;
+}
+.banner-digital.bg-digital7 {
+	background-image: url(../assets/page-banners/banner-digital-7.jpg);
+	background-position: right top;
+}
+.banner-digital.bg-digital8 {
+	background-image: url(../assets/page-banners/banner-digital-8.jpg);
+	background-position: right top;
+}
+.banner-digital.bg-digital9 {
+	background-image: url(../assets/page-banners/banner-digital-9.jpg);
+	background-position: left top;
+}
+/* Banner - Exchange */
+.banner-exchange, .banner-exchange.bg-exchange0 {
+	background-image: url(../assets/page-banners/banner-exchange-0.jpg);
+}
+.banner-exchange.bg-exchange1 {
+	background-image: url(../assets/page-banners/banner-exchange-1.jpg);
+	background-position: right top;
+}
+.banner-exchange.bg-exchange2 {
+	background-image: url(../assets/page-banners/banner-exchange-2.jpg);
+}
+.banner-exchange.bg-exchange3 {
+	background-image: url(../assets/page-banners/banner-exchange-3.jpg);
+}
+.banner-exchange.bg-exchange4 {
+	background-image: url(../assets/page-banners/banner-exchange-4.jpg);
+}
+/* Banner - Service */
+.banner-service, .banner-service.bg-service0 {
+	background-image: url(../assets/page-banners/banner-service-0.jpg);
+	background-position: right top;
+}
+.banner-service.bg-service1 {
+	background-image: url(../assets/page-banners/banner-service-1.jpg);
+}
+.banner-service.bg-service2 {
+	background-image: url(../assets/page-banners/banner-service-2.jpg);
+	background-position: left top;
+}
+.banner-service.bg-service3 {
+	background-image: url(../assets/page-banners/banner-service-3.jpg);
+}
+.banner-service.bg-service4 {
+	background-image: url(../assets/page-banners/banner-service-4.jpg);
+	background-position: right top;
+}
+/* Banner - Real Estate */
+.banner-real-estate, .banner-real-estate.bg-real-estate0 {
+	background-image: url(../assets/page-banners/banner-real-estate-0.jpg);
+}
+.banner-real-estate.bg-real-estate1 {
+	background-image: url(../assets/page-banners/banner-real-estate-1.jpg);
+}
+.banner-real-estate.bg-real-estate2 {
+	background-image: url(../assets/page-banners/banner-real-estate-2.jpg);
+}
+/* Banner - News */
+.banner-news, .banner-news.bg-news0 {
+	background-image: url(../assets/page-banners/banner-news-0.jpg);
+}
+.banner-news.bg-news1 {
+	background-image: url(../assets/page-banners/banner-news-1.jpg);
+}
+.banner-news.bg-news2 {
+	background-image: url(../assets/page-banners/banner-news-2.jpg);
+}
+.banner-news.bg-news3 {
+	background-image: url(../assets/page-banners/banner-news-3.jpg);
+}
+.banner-news.bg-news4 {
+	background-image: url(../assets/page-banners/banner-news-4.jpg);
+}
+/* Banner - Info */
+.banner-info, .banner-info.bg-info0 {
+	background-image: url(../assets/page-banners/banner-info-0.jpg);
+}
+.banner-info.bg-info1 {
+	background-image: url(../assets/page-banners/banner-info-1.jpg);
+}
+.banner-info.bg-info2 {
+	background-image: url(../assets/page-banners/banner-info-2.jpg);
+}
+.banner-info.bg-info3 {
+	background-image: url(../assets/page-banners/banner-info-3.jpg);
+}
+.banner-info.bg-info4 {
+	background-image: url(../assets/page-banners/banner-info-4.jpg);
+}
+/* Banner - Branch */
+.banner-branch {
+	background-image: url(../assets/page-banners/banner-branch.jpg);
+}
+.banner-branch-overseas {
+	background-image: url(../assets/page-banners/banner-overseas-business-units.jpg);
+}
+/* Banner - Career */
+.banner-career {
+	background-image: url(../assets/page-banners/banner-career.jpg);
+	background-position: left top;
+}
+/* Banner - Sitemap */
+.banner-sitemap {
+	background-image: url(../assets/page-banners/banner-sitemap.jpg);
+	background-position: center top;
+}
+/* Banner - Cultural Education */
+.banner-cultural-educational {
+	background-image: url(../assets/page-banners/banner-cultural-educational.jpg);
+}
+
+/* Responsive Settings */
+@media only screen and (max-width: 767px) {
+.banner-container {
+	height: 220px;
+}
+.banner-container.md {
+	height: 330px;
+}
+.banner-container.lg {
+	height: 450px;
+}
+}
