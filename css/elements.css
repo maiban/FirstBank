@@ -747,7 +747,7 @@ h3.nested-tab-title {
 }
 .product-panel.panel .panel-content a.panel-title h4:after {
 	font-family: 'FontAwesome';
-	font-size: 1.5em;
+	font-size: 1.125em;
 	line-height: 0.8em;
 	margin-left: 10px;
 	content: "\f0a9";
@@ -762,9 +762,9 @@ h3.nested-tab-title {
 }
 /* Accordion */
 .panel.panel-default {
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
 }
 .panel-group .panel.panel-default {
 	border-color: #eee;
@@ -798,7 +798,7 @@ h4.accordion-sub-title {
 	color: #17755e;
 }
 .question-answer .panel-heading, .question-answer .panel-body {
-	padding-left: 30px;
+	padding-left: 40px;
 }
 .question-answer .panel-body p, .question-answer .panel-body ul, .question-answer .panel-body ol {
 	margin-bottom: 16px;
@@ -806,7 +806,7 @@ h4.accordion-sub-title {
 .question-answer .panel-heading:before, .question-answer .panel-body:before {
 	content: "Q";
 	position: absolute;
-	left: 0;
+	left: 6px;
 	color: #fff;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-weight: bold;
